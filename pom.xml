@@ -18,6 +18,15 @@
     <jetty.version>8.1.13.v20130916</jetty.version>
   </properties>
 
+  <repositories>
+    <repository>
+      <id>sonatype</id>
+      <url>https://oss.sonatype.org/content/repositories</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+  </repositories>
+
   <dependencies>
     <dependency>
       <groupId>org.fcrepo</groupId>
